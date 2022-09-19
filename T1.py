@@ -1,9 +1,9 @@
-def is_odd(x):
-    return x % 2 == 1
-
-L = list(filter(is_odd,[1,2,3,4,5,6,7,8]))
-
-#Delete  Space
-def _Space_(x):
-    return x and x.strip()
-    
+from sys import argv
+ script,filename = argv 
+ txt = open(filename) 
+ print("Here's your file %r:" % filename ) 
+ print(txt.read()) 
+ print("Type the filename again:" ) 
+ file_again = input("> ") 
+ txt_again = open(file_again)
+print(txt_again.read()) 
