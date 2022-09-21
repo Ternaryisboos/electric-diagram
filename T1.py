@@ -1,9 +1,5 @@
+# from ast import arg
 from sys import argv
- script,filename = argv 
- txt = open(filename) 
- print("Here's your file %r:" % filename ) 
- print(txt.read()) 
- print("Type the filename again:" ) 
- file_again = input("> ") 
- txt_again = open(file_again)
-print(txt_again.read()) 
+# from traceback import print_list
+script,n1,n2,n3= argv
+print("I'm %r  ,do %s ,book %r",(script,n1,n2,n3))
